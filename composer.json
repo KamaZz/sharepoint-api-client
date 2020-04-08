@@ -1,0 +1,21 @@
+{
+  "name": "kamazz/sharepoint-api-client",
+  "type": "library",
+  "minimum-stability": "stable",
+  "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kamazz\\SharepointApiClient\\": "src"
+    }
+  },
+  "description": "",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "kamazz\\SharepointApiClient\\SharepointApiClientServiceProvider"
+      ]
+    }
+  }
+}
